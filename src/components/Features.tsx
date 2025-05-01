@@ -5,33 +5,33 @@ import { Package, Shield, Zap, RefreshCcw, Layers, Code } from "lucide-react";
 export const Features = () => {
   const features = [
     {
-      title: "Modular Architecture",
-      description: "Organize your Go code into independent, reusable modules that are easy to maintain and test.",
+      title: "Marketing Digital",
+      description: "Estratégias completas de marketing digital para aumentar sua visibilidade online e gerar mais vendas.",
       icon: Package,
     },
     {
-      title: "Rapid Development",
-      description: "Accelerate development with ready-made components and a standardized project structure.",
+      title: "Tráfego Pago",
+      description: "Campanhas otimizadas para Google Ads, Facebook Ads e outras plataformas para maximizar seu ROI.",
       icon: Zap,
     },
     {
-      title: "Enterprise Security",
-      description: "Built-in security features and best practices to protect your applications from common vulnerabilities.",
+      title: "SEO",
+      description: "Otimização para mecanismos de busca que aumenta seu posicionamento orgânico e traz visitantes qualificados.",
       icon: Shield,
     },
     {
-      title: "Hot Reloading",
-      description: "Improve your development workflow with automatic code reloading during development.",
+      title: "Gestão de Redes Sociais",
+      description: "Criação de conteúdo relevante e gestão completa das suas redes sociais para engajar seu público-alvo.",
       icon: RefreshCcw,
     },
     {
-      title: "Dependency Injection",
-      description: "Clean and testable code with automatic dependency injection throughout your application.",
+      title: "Funis de Vendas",
+      description: "Desenvolvimento de funis de conversão que transformam visitantes em leads e leads em clientes.",
       icon: Layers,
     },
     {
-      title: "Code Generation",
-      description: "Generate boilerplate code with CLI tools to speed up common development tasks.",
+      title: "Análise de Dados",
+      description: "Monitoramento e análise de métricas para ajustar estratégias e maximizar resultados.",
       icon: Code,
     },
   ];
@@ -41,10 +41,10 @@ export const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Everything You Need for <span className="gradient-text">Modern Go Development</span>
+            Tudo o que Você Precisa para <span className="gradient-text">Marketing Digital de Sucesso</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our modular approach helps teams build robust, maintainable Go applications with less effort and higher quality.
+            Nossa abordagem ajuda empresas a construírem uma presença digital robusta, gerando mais leads e aumentando suas vendas.
           </p>
         </div>
 

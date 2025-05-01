@@ -5,21 +5,21 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 export const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Go Modular has completely transformed how we build and maintain our microservices. The modular architecture has made our codebase more maintainable and easier to test.",
-      author: "Alex Johnson",
-      role: "CTO, TechCorp",
-      avatar: "AJ"
+      quote: "A Hever Company revolucionou completamente nossa presença digital. O tráfego para nosso site aumentou em 200% e as conversões cresceram significativamente.",
+      author: "Alexandre Silva",
+      role: "Diretor Comercial, TechBrasil",
+      avatar: "AS"
     },
     {
-      quote: "After struggling with monolithic Go applications, switching to Go Modular was like a breath of fresh air. Our development speed increased by 40%.",
-      author: "Sarah Lee",
-      role: "Lead Developer, CloudNative",
-      avatar: "SL"
+      quote: "Depois de trabalhar com várias agências, encontrar a Hever Company foi como um sopro de ar fresco. Nossa taxa de conversão aumentou em mais de 40%.",
+      author: "Sara Almeida",
+      role: "CEO, CloudNativa",
+      avatar: "SA"
     },
     {
-      quote: "The dependency injection and modular architecture have significantly improved our code quality. New team members can understand our codebase much faster now.",
-      author: "Michael Chen",
-      role: "Engineering Manager, DataFlow",
+      quote: "As estratégias de marketing digital implementadas pela Hever Company impulsionaram nossas vendas e fortaleceram nossa marca no mercado.",
+      author: "Miguel Costa",
+      role: "Gerente de Marketing, DataFlow",
       avatar: "MC"
     }
   ];
@@ -29,10 +29,10 @@ export const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Trusted by <span className="gradient-text">Go Developers</span> Everywhere
+            Confiado por <span className="gradient-text">Empresas</span> de Todo o Brasil
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See what developers and companies are saying about Go Modular
+            Veja o que nossos clientes dizem sobre nossos serviços de marketing digital
           </p>
         </div>
 

@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Github } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,9 +11,9 @@ export const Navbar = () => {
   };
 
   const navItems = [
-    { label: "Features", href: "#features" },
-    { label: "How it Works", href: "#how-it-works" },
-    { label: "Docs", href: "#docs" },
+    { label: "Serviços", href: "#features" },
+    { label: "Como Trabalhamos", href: "#how-it-works" },
+    { label: "Depoimentos", href: "#testimonials" },
     { label: "Blog", href: "#blog" },
   ];
 
@@ -25,9 +25,9 @@ export const Navbar = () => {
           <div className="flex items-center">
             <a href="#" className="flex items-center gap-2 font-bold text-xl">
               <div className="h-8 w-8 rounded-md bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center text-white">
-                G
+                H
               </div>
-              <span className="hidden sm:inline">Go Modular</span>
+              <span className="hidden sm:inline">Hever Company</span>
             </a>
           </div>
 
@@ -47,11 +47,11 @@ export const Navbar = () => {
           {/* Action Buttons */}
           <div className="hidden md:flex items-center gap-4">
             <Button variant="outline" size="sm" className="gap-2">
-              <Github className="h-4 w-4" />
-              <span>GitHub</span>
+              <Phone className="h-4 w-4" />
+              <span>Contato</span>
             </Button>
             <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-white">
-              Get Started
+              Agendar Consultoria
             </Button>
           </div>
 
@@ -85,11 +85,11 @@ export const Navbar = () => {
               ))}
               <div className="flex flex-col gap-3 mt-4 pt-4 border-t border-gray-100">
                 <Button variant="outline" className="justify-center gap-2">
-                  <Github className="h-4 w-4" />
-                  <span>GitHub</span>
+                  <Phone className="h-4 w-4" />
+                  <span>Contato</span>
                 </Button>
                 <Button className="bg-blue-600 hover:bg-blue-700 text-white justify-center">
-                  Get Started
+                  Agendar Consultoria
                 </Button>
               </div>
             </nav>

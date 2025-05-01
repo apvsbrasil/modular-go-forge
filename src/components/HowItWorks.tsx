@@ -5,34 +5,35 @@ export const HowItWorks = () => {
   const steps = [
     {
       number: "01",
-      title: "Create Project Structure",
-      description: "Start with our opinionated project structure that separates concerns and promotes clean architecture.",
-      code: `go-modular init my-awesome-project`,
+      title: "Diagnóstico Estratégico",
+      description: "Analisamos seu negócio, concorrência e público-alvo para identificar oportunidades de crescimento digital.",
+      code: `Análise de mercado
+Estudo da concorrência
+Identificação de oportunidades`,
     },
     {
       number: "02",
-      title: "Add Your Modules",
-      description: "Generate new modules for different parts of your application using the CLI.",
-      code: `go-modular module add user
-go-modular module add auth`,
+      title: "Planejamento Personalizado",
+      description: "Criamos um planejamento estratégico sob medida que atende às necessidades específicas do seu negócio.",
+      code: `Definição de objetivos
+Seleção de canais
+Estratégia de conteúdo`,
     },
     {
       number: "03",
-      title: "Connect Your Dependencies",
-      description: "Define module dependencies and let the framework handle the wiring for you.",
-      code: `// user/module.go
-func (m *Module) Requires() []interface{} {
-    return []interface{}{
-        &auth.Module{},
-        &database.Module{},
-    }
-}`,
+      title: "Implementação Profissional",
+      description: "Nossa equipe implementa as estratégias definidas com foco em resultados mensuráveis.",
+      code: `Criação de campanhas
+Otimização de conteúdo
+Implementação técnica`,
     },
     {
       number: "04",
-      title: "Run Your Application",
-      description: "Start your application with hot reloading for a smooth development experience.",
-      code: `go-modular run`,
+      title: "Análise e Otimização",
+      description: "Monitoramos continuamente os resultados e ajustamos as estratégias para maximizar o retorno sobre investimento.",
+      code: `Acompanhamento de métricas
+Otimização contínua
+Relatórios detalhados`,
     },
   ];
 
@@ -41,10 +42,10 @@ func (m *Module) Requires() []interface{} {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            How <span className="gradient-text">Go Modular</span> Works
+            Como a <span className="gradient-text">Hever Company</span> Trabalha
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A streamlined development process that makes building Go applications faster and more enjoyable.
+            Um processo estruturado que transforma sua presença digital e impulsiona seus resultados de negócio.
           </p>
         </div>
 
@@ -66,7 +67,7 @@ func (m *Module) Requires() []interface{} {
                 <p className="text-lg text-gray-600">{step.description}</p>
                 <div className="flex gap-3 items-center text-gray-600">
                   <CheckCircle className="h-5 w-5 text-green-500" />
-                  <span>Simple and intuitive</span>
+                  <span>Metodologia comprovada</span>
                 </div>
               </div>
               <div className="flex-1">
