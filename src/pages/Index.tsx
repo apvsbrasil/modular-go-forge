@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 const Index = () => {
   useEffect(() => {
     // Update page title
-    document.title = "Go Modular - Build Scalable Go Applications";
+    document.title = "Hever Company - Agência de Marketing Digital e Performance";
   }, []);
 
   return (
