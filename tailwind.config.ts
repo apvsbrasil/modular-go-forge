@@ -63,15 +63,14 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				go: {
-					blue: '#00ADD8',
-					cyan: '#5DC9E2',
-					dark: '#163946',
-					light: '#E0F4F9'
+				hever: {
+					blue: '#1c2c3c',
+					gold: '#c5a46d',
+					white: '#f4f4f4'
 				}
 			},
 			fontFamily: {
-				sans: ['Inter', 'system-ui', 'sans-serif'],
+				sans: ['Montserrat', 'system-ui', 'sans-serif'],
 				mono: ['JetBrains Mono', 'monospace']
 			},
 			borderRadius: {

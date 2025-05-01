@@ -12,22 +12,22 @@ export const Navbar = () => {
 
   const navItems = [
     { label: "Serviços", href: "#features" },
-    { label: "Como Trabalhamos", href: "#how-it-works" },
+    { label: "Por que nos escolher", href: "#why-choose-us" },
     { label: "Depoimentos", href: "#testimonials" },
-    { label: "Blog", href: "#blog" },
+    { label: "Contato", href: "#contact" },
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-white bg-opacity-95 backdrop-blur-sm z-50 border-b border-gray-100 shadow-sm">
+    <header className="fixed top-0 left-0 right-0 bg-white bg-opacity-97 backdrop-blur-sm z-50 border-b border-gray-200 shadow-sm">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center">
             <a href="#" className="flex items-center gap-2 font-bold text-xl">
-              <div className="h-8 w-8 rounded-md bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center text-white">
+              <div className="h-10 w-10 rounded-md bg-[#1c2c3c] flex items-center justify-center text-white">
                 H
               </div>
-              <span className="hidden sm:inline">Hever Company</span>
+              <span className="hidden sm:inline text-[#1c2c3c]">Hever Company</span>
             </a>
           </div>
 
@@ -37,7 +37,7 @@ export const Navbar = () => {
               <a 
                 key={index}
                 href={item.href}
-                className="text-gray-600 hover:text-blue-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-[#1c2c3c] font-medium transition-colors"
               >
                 {item.label}
               </a>
@@ -46,12 +46,12 @@ export const Navbar = () => {
 
           {/* Action Buttons */}
           <div className="hidden md:flex items-center gap-4">
-            <Button variant="outline" size="sm" className="gap-2">
+            <Button variant="outline" size="sm" className="gap-2 border-[#1c2c3c] text-[#1c2c3c] hover:bg-[#1c2c3c] hover:text-white">
               <Phone className="h-4 w-4" />
               <span>Contato</span>
             </Button>
-            <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-white">
-              Agendar Consultoria
+            <Button size="sm" className="bg-[#c5a46d] hover:bg-[#b08d54] text-white">
+              Agendar Reunião
             </Button>
           </div>
 
@@ -77,19 +77,19 @@ export const Navbar = () => {
                 <a 
                   key={index}
                   href={item.href}
-                  className="text-gray-600 hover:text-blue-600 font-medium py-2 transition-colors"
+                  className="text-gray-700 hover:text-[#1c2c3c] font-medium py-2 transition-colors"
                   onClick={toggleMenu}
                 >
                   {item.label}
                 </a>
               ))}
               <div className="flex flex-col gap-3 mt-4 pt-4 border-t border-gray-100">
-                <Button variant="outline" className="justify-center gap-2">
+                <Button variant="outline" className="justify-center gap-2 border-[#1c2c3c] text-[#1c2c3c]">
                   <Phone className="h-4 w-4" />
                   <span>Contato</span>
                 </Button>
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white justify-center">
-                  Agendar Consultoria
+                <Button className="bg-[#c5a46d] hover:bg-[#b08d54] text-white justify-center">
+                  Agendar Reunião
                 </Button>
               </div>
             </nav>

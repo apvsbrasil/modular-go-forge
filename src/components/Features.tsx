@@ -1,14 +1,9 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Package, Shield, Zap, RefreshCcw, Layers, Code } from "lucide-react";
+import { Zap, Shield, RefreshCcw, Layers, Code } from "lucide-react";
 
 export const Features = () => {
   const features = [
-    {
-      title: "Marketing Digital",
-      description: "Estratégias completas de marketing digital para aumentar sua visibilidade online e gerar mais vendas.",
-      icon: Package,
-    },
     {
       title: "Tráfego Pago",
       description: "Campanhas otimizadas para Google Ads, Facebook Ads e outras plataformas para maximizar seu ROI.",
@@ -20,19 +15,19 @@ export const Features = () => {
       icon: Shield,
     },
     {
-      title: "Gestão de Redes Sociais",
-      description: "Criação de conteúdo relevante e gestão completa das suas redes sociais para engajar seu público-alvo.",
+      title: "Landing Pages",
+      description: "Páginas de alta conversão desenvolvidas para transformar visitantes em leads e clientes.",
+      icon: Code,
+    },
+    {
+      title: "Criativos",
+      description: "Design e conteúdo estratégico para suas campanhas digitais com foco em conversão.",
       icon: RefreshCcw,
     },
     {
       title: "Funis de Vendas",
       description: "Desenvolvimento de funis de conversão que transformam visitantes em leads e leads em clientes.",
       icon: Layers,
-    },
-    {
-      title: "Análise de Dados",
-      description: "Monitoramento e análise de métricas para ajustar estratégias e maximizar resultados.",
-      icon: Code,
     },
   ];
 
@@ -41,10 +36,10 @@ export const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Tudo o que Você Precisa para <span className="gradient-text">Marketing Digital de Sucesso</span>
+            Nossos <span className="gradient-text">Serviços</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Nossa abordagem ajuda empresas a construírem uma presença digital robusta, gerando mais leads e aumentando suas vendas.
+            Soluções completas de marketing digital para alavancar o crescimento do seu negócio
           </p>
         </div>
 
@@ -52,10 +47,10 @@ export const Features = () => {
           {features.map((feature, index) => (
             <Card key={index} className="border border-gray-100 shadow-sm hover:shadow-md transition-shadow duration-300">
               <CardHeader>
-                <div className="h-12 w-12 rounded-lg bg-blue-50 flex items-center justify-center mb-4">
-                  <feature.icon className="h-6 w-6 text-blue-600" />
+                <div className="h-12 w-12 rounded-lg bg-[#1c2c3c]/10 flex items-center justify-center mb-4">
+                  <feature.icon className="h-6 w-6 text-[#1c2c3c]" />
                 </div>
-                <CardTitle>{feature.title}</CardTitle>
+                <CardTitle className="text-[#1c2c3c]">{feature.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-600 text-base">

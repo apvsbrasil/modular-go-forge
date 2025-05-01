@@ -14,16 +14,17 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 196 100% 47%;
+    /* Cores atualizadas para Hever Company */
+    --primary: 215 38% 17%; /* Azul escuro #1c2c3c */
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 190 95% 39%;
+    --secondary: 38 42% 60%; /* Dourado elegante #c5a46d */
     --secondary-foreground: 222.2 47.4% 11.2%;
 
-    --muted: 210 40% 96.1%;
+    --muted: 0 0% 96%; /* Branco gelo #f4f4f4 */
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
+    --accent: 38 42% 60%; /* Dourado elegante como accent */
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
@@ -31,7 +32,7 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 215 38% 17%; /* Azul escuro */
 
     --radius: 0.5rem;
 
@@ -55,16 +56,16 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 196 100% 47%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 215 38% 17%; /* Azul escuro */
+    --primary-foreground: 210 40% 98%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 38 42% 60%; /* Dourado elegante */
+    --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 217.2 32.6% 17.5%;
+    --accent: 38 42% 60%; /* Dourado elegante */
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 62.8% 30.6%;
@@ -92,6 +93,7 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Montserrat', sans-serif;
   }
 }
 
@@ -146,7 +148,11 @@
 }
 
 .gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-500;
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#1c2c3c] to-[#c5a46d];
+}
+
+.gradient-bg {
+  @apply bg-gradient-to-br from-[#1c2c3c] to-[#2c3c4c];
 }
 
 .code-block {

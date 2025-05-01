@@ -5,54 +5,59 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-gray-300">
+    <footer id="contact" className="bg-[#1c2c3c] text-gray-300">
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-white">Hever Company</h3>
+            <div className="flex items-center gap-2">
+              <div className="h-10 w-10 rounded-md bg-[#c5a46d] flex items-center justify-center text-[#1c2c3c] font-bold">
+                H
+              </div>
+              <h3 className="text-xl font-bold text-white">Hever Company</h3>
+            </div>
             <p className="text-gray-400">
               Agência especializada em marketing digital e performance para impulsionar seu negócio.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="#" className="text-[#c5a46d] hover:text-white transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="#" className="text-[#c5a46d] hover:text-white transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="#" className="text-[#c5a46d] hover:text-white transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
           </div>
 
           <div>
-            <h4 className="font-bold mb-4 text-white">Recursos</h4>
+            <h4 className="font-bold mb-4 text-[#c5a46d]">Empresa</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-white">Blog</a></li>
-              <li><a href="#" className="hover:text-white">Materiais Gratuitos</a></li>
-              <li><a href="#" className="hover:text-white">Estudos de Caso</a></li>
-              <li><a href="#" className="hover:text-white">Vídeos</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Sobre Nós</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Nosso Time</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Carreiras</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-bold mb-4 text-white">Empresa</h4>
+            <h4 className="font-bold mb-4 text-[#c5a46d]">Serviços</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-white">Sobre Nós</a></li>
-              <li><a href="#" className="hover:text-white">Carreiras</a></li>
-              <li><a href="#" className="hover:text-white">Contato</a></li>
-              <li><a href="#" className="hover:text-white">Privacidade</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Tráfego Pago</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">SEO</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Landing Pages</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Funis de Vendas</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-bold mb-4 text-white">Serviços</h4>
+            <h4 className="font-bold mb-4 text-[#c5a46d]">Contato</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-white">Marketing Digital</a></li>
-              <li><a href="#" className="hover:text-white">Tráfego Pago</a></li>
-              <li><a href="#" className="hover:text-white">SEO</a></li>
-              <li><a href="#" className="hover:text-white">Redes Sociais</a></li>
+              <li>contato@hevercompany.com</li>
+              <li>+55 (11) 9999-9999</li>
+              <li>São Paulo, SP - Brasil</li>
+              <li><a href="#" className="text-[#c5a46d] hover:text-white transition-colors">Agendar Reunião</a></li>
             </ul>
           </div>
         </div>
@@ -60,9 +65,9 @@ export const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p>© {currentYear} Hever Company. Todos os direitos reservados.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-white">Termos</a>
-            <a href="#" className="hover:text-white">Privacidade</a>
-            <a href="#" className="hover:text-white">Cookies</a>
+            <a href="#" className="hover:text-[#c5a46d] transition-colors">Termos</a>
+            <a href="#" className="hover:text-[#c5a46d] transition-colors">Privacidade</a>
+            <a href="#" className="hover:text-[#c5a46d] transition-colors">Cookies</a>
           </div>
         </div>
       </div>
